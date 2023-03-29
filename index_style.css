@@ -1,0 +1,148 @@
+/* CSS Stylesheet for index.html webpage */
+
+
+/* Parent display grid for whole body of website */
+
+body {
+    width: 80%;
+    margin: auto;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    background-color: #212428;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    color: #c4cfde;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    display: block;
+    line-height: 24px;
+}
+
+
+#grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 64px;
+    margin: 150px 0px;
+}
+#orangeText {
+    color: #ff014f;
+
+}
+
+section {
+    text-align: center;
+    margin: 150px 0px;
+}
+
+.profilePhoto {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row: auto;
+    
+    margin: auto;
+    
+}
+
+.introText {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row: auto;
+
+}
+
+.myeduText {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row: auto;
+
+}
+
+.myworkText {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row: auto;
+    
+    
+}
+
+ul {
+   
+    padding-inline-start: 20px;
+}
+
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 62px;
+    margin-bottom: 22px;
+}
+
+h2 {
+
+    font-family: "Montserrat", sans-serif;
+    color: #c4cfde;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 62px;
+    margin-bottom: 22px;
+
+}
+
+.listfont {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+
+
+
+.moreButton {
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: cursive;
+    color: #ff014f;
+}
+
+footer {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.footer-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 64px; 
+}
+
+.footer-heading{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.footer-grid-block{
+text-align: center;
+}
+
+
+a:link {
+    color: #c4cfde;
+  }
+  
+  a:visited {
+    color: #c4cfde;
+  }
+
+  a:hover {
+    color: #ff014f;
+  }
+  
+  a:active {
+    color: #c4cfde;
+  }
